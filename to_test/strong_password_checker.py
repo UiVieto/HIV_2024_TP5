@@ -1,5 +1,3 @@
-
-
 def strong_password_checker(s: str) -> int:
     """
     Checks the strength of a password and returns the minimum number of changes required to make it strong.

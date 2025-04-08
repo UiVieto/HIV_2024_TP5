@@ -5,7 +5,7 @@ from common.abstract_executor import AbstractExecutor
 from file_name_check import file_name_check
 import importlib
 
-key = ""
+key = "AIzaSyDTcdlS7_IdLM_0miPUP4EmAgqKLD3ZrTA"
    
 
 if __name__ == "__main__":
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     genai.configure(api_key=key)
 
     # Create a generative model
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-pro')
 
     function_to_test = file_name_check
 
